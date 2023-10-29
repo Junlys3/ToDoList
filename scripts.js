@@ -49,8 +49,9 @@ function apagar(index){
 function carregartasks(){
    var localstoragetasks = localStorage.getItem('lista')
 
+  if(localstoragetasks){
    lista = JSON.parse(localstoragetasks)
-
+  }
    showtasks()
 }
 
