@@ -47,11 +47,12 @@ function apagar(index){
    showtasks()
 }
 function carregartasks(){
-   var localstoragetasks = localStorage.getItem('lista')
+   const localstoragetasks = localStorage.getItem('lista')
 
   if(localstoragetasks){
-   lista = JSON.parse(localstoragetasks)
+    lista = JSON.parse(localstoragetasks)
   }
+
    showtasks()
 }
 
