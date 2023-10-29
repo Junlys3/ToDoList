@@ -46,6 +46,7 @@ function apagar(index){
 
    showtasks()
 }
+
 function carregartasks(){
    const localstoragetasks = localStorage.getItem('lista')
 
@@ -57,6 +58,5 @@ function carregartasks(){
 }
 
 carregartasks()
-
 button.addEventListener('click', arrayclick)
 
