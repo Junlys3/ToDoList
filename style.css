@@ -9,7 +9,8 @@
 body{
     background: url(imagens/IMG-20231107-WA0079.jpg);
 
-   
+    background-repeat: no-repeat;
+    background-size: 100vw;
    
 }
 .container{
