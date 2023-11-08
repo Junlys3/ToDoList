@@ -19,7 +19,7 @@ function arrayclick (){
 
 function showtasks(){
    let novali = ''
-
+  
   lista.forEach( (task, index) => {
    novali += `
    <li class="task ${lista[index].finish && "do"}">
